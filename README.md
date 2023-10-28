@@ -6,3 +6,7 @@ Target folder has Jar File which helps you pass configurable parameters. Copy th
 
 /Target Directory 
 exportexcel-0.0.1-SNAPSHOT.jar
+
+
+java -jar exportexcel-0.0.1-SNAPSHOT.jar config.properties "SELECT * FROM all_tables" output.xlsx
+Data exported to output.xlsx
